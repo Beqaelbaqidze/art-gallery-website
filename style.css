@@ -41,6 +41,7 @@ button{
     height: 72px;
     object-position: left;
     margin: 0 auto 120px auto;
+    background-color: #D5966C;
     
 }
 button h3{
@@ -62,7 +63,7 @@ a{
 }
 button img{
     padding: 24px;
-    background-color: #D5966C;;
+    
 }
 .mid-container{
     display: flex;
@@ -175,9 +176,6 @@ footer h2{
         background-image: url(assets/tablet/image-hero.jpg);
         background-repeat: no-repeat;
     }
-    a{
-        margin-top: 48px;
-    }
     .main-container{
 
         margin: 120px 40px auto 40px; 
@@ -190,18 +188,20 @@ footer h2{
     }
     .p-18{
         width: 339px;
-        margin-bottom: 0;
+        margin-bottom: 48px;
     }
     .mid-container{
         display: flex;
-        flex-direction:row-reverse ;
+        flex-direction: row-reverse ;        
         margin-top: 265px;
     }
     .mid-info{
         margin-left: auto;
+        margin-right: 89px;
     }
     .img{
-        margin-left: 89px;
+        margin-right: auto;
+        
     }
     .h2-27{
         width: 223px;
@@ -263,6 +263,175 @@ footer h2{
         margin-bottom: 140px;
     }
 
+}
+@media (min-width:1440px){
+    body{
+        background-image: none;
+    }
+    .bckg-img{
+        background-color: #151515;
+        width: 990px;
+        height: 800px;
+        background-image: url(assets/desktop/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .main-container{
+        margin-top: -600px;
+    }
+    .top-container{
+        display: flex;
+        flex-direction: row;   
+        margin: auto;   
+    }
+    h1{
+        width: 514px;
+        margin-top: 0;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 88px;
 
+        /* or 92% */
+        text-transform: uppercase;
 
+        /* White */
+        color: #FFFFFF;
+    }
+    .respo{
+        margin-left: 240px;
+    }
+    .p-18{        
+        width: 350px;
+        height: 160px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+
+        /* or 145% */
+
+        /* Dark Grey */
+        color: #444444;
+
+    }
+    button h3:hover{
+        cursor: pointer;
+        background-color: #D5966C;
+    }
+    button:hover{
+        background-color: #151515;
+        cursor: pointer;
+    }
+    .mid-container{
+        justify-content: flex-start;
+        padding: 165px;
+    }
+    .mid-info{
+        width: 350px;
+        padding: 0;
+        margin: 0;
+        margin-right: 125px;
+    }
+    .img{
+        width: 635px;
+        height: 400px;
+    }
+    .h2-27{
+        width: 350px;
+    }
+    .p-29{
+        width: 350px;
+    }
+    .bot-container{
+        display: grid;
+        grid-template-columns: 635px 445px;
+    }
+    .img1{
+        width: 635px;
+        height: 720px;
+    }
+    .bot-grid{
+        background-image: none;
+        background-image: url(assets/desktop/image-grid-3.jpg);
+        width: 445px;
+        height: 313px;
+        margin-left: 30px;
+    }
+    .cmnt{
+        margin-top: 343px;
+        width: 445px;
+        height: 377px;
+    }
+    .h2-36{
+        margin-left: 48px;
+        width: 350px;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+
+        /* or 100% */
+        text-transform: uppercase;
+
+        /* White */
+        color: #FFFFFF;
+    }
+    .p-38{
+        margin-left: 48px;
+        width: 350px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+
+        /* or 145% */
+
+        /* White */
+        color: #FFFFFF;
+    }
+    footer{
+        padding-left: 165px;
+        padding-right: auto;
+    }
+    footer h2{
+        margin-left: 0;
+        width: 160px;
+        margin-right: 0;
+    }
+    .p-46{
+        margin-right: 280px;
+        margin-left: 140px;
+        width: 430px;
+        height: 84px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+
+        /* or 156% */
+
+        /* White */
+        color: #FFFFFF;
+    }
+    .comunity{
+        margin-left: 0;
+    }
+    .fb:hover{
+        border-radius: 3px;
+        background: #D5966C;
+    }
+    .inst:hover{
+        border-radius: 3px;
+        background: #D5966C;
+    }
+    .twt:hover{
+        border-radius: 3px;
+        background: #D5966C;
+    }
 }

@@ -21,6 +21,7 @@ button{
     display: flex;
     flex-direction: row;
     border: 0;
+    background: #D5966C;
 }
 h3{
     padding: 24px 35px 24px 32px;
@@ -35,7 +36,7 @@ h3{
 }
 button img{
     padding: 24px;
-    background: #D5966C;
+    
 }
 .mid-container{
     background: #151515;
@@ -137,5 +138,100 @@ footer p{
         margin-left: 80px;
         margin-right: 110px;
     }
+}
+@media (min-width:1440px){
+     body{
+        background-image: none;
+        background-image: url(assets/desktop/image-map.png);
+    }
+    a{
+        margin-left: 160px;
+    }
+    .mid-container{
+        width: 1440px;
+        height: 548px;
+    }
+    .mid-container h1{
+        margin-left: 165px;
+        margin-top: 104px;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 70px;
+
+        /* or 100% */
+        text-transform: uppercase;
+
+        /* White */
+        color: #FFFFFF;
+    }
+    .main-text{
+        margin-top: 104px;
+        margin-left: 220px;
+    }
+    .main-text h2{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 36px;
+
+        /* identical to box height, or 100% */
+        text-transform: uppercase;
+
+        /* Gold */
+        color: #D5966C;
+    }
+    .main-text p{
+        width: 540px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        
+        /* or 145% */
+        
+        /* White */
+        color: #FFFFFF;
+    }
+    footer{
+        height: 244px;
+        width: 1440px;
+        padding-top: 80px;
+        padding-left: 165px;
+    }
+    footer h2{
+        margin-top: 0;
+        width: 160px;
+        letter-spacing: -1.5px;
+    }
+    footer p{
+        width: 430px;
+        margin-left: 140px;
+        margin-right: 280px;
+    }
+    button h3:hover{
+        cursor: pointer;
+        background-color: #D5966C;
+    }
+    button:hover{
+        background-color: #151515;
+        cursor: pointer;
+    }
+    .fb:hover{
+        border-radius: 3px;
+        background: #FFFFFF;
+    }
+    .inst:hover{
+        border-radius: 3px;
+        background: #FFFFFF;
+    }
+    .twt:hover{
+        border-radius: 3px;
+        background: #FFFFFF;
+    }
+
 }
 

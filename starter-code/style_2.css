@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/mobile/image-map.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.top-container{
+    margin-bottom: 550px;
+}
+a{  
+    text-decoration: none;
+    position: absolute;
+    
+}
+button{
+    display: flex;
+    flex-direction: row;
+    border: 0;
+}
+h3{
+    padding: 24px 35px 24px 32px;
+    background: #151515;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+}
+button img{
+    padding: 24px;
+    background: #D5966C;
+}
+.mid-container{
+    background: #151515;
+    width: 343px;
+    height: 389px;
+    padding: 48px 16px 56px 16px;
+    margin: auto;
+}
+h1{    
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+.mid-container h2{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #D5966C;
+    margin-bottom: 20px;
+}
+.mid-container p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 343px;
+}
+footer{
+    width: 343px;
+    height: 336px;
+    padding-left: 32px;
+    background: #D5966C;
+    object-position: center;
+    margin:auto;
+}
+footer h2{
+    margin-top: 48px;
+    margin-bottom: 38px;
+    color: #151515;;
+    text-transform: uppercase;
+}
+footer p{
+    width: 311px;
+    margin-bottom: 38px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515
+}
+.inst{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media (min-width:768px){
+    body{
+        background-image: none;
+        background-image: url(assets/tablet/image-map.png);
+    }
+    a{
+        margin-left: 39px;
+    }
+    .mid-container{
+        width: 768px;
+        height: 436px;
+        display: flex;
+        flex-direction: row;
+    }
+    .mid-container h1{
+        width: 223px;
+        margin-right: 68px;
+        margin-left: 39px;
+    }
+    footer{
+        height: 160px;
+        width: 768px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 56px;
+    }
+    footer h2{
+        margin-top: 0;
+        width: 120px;
+        letter-spacing: -1.5px;
+    }
+    footer p{
+        width: 281px;
+        margin-left: 80px;
+        margin-right: 110px;
+    }
+}
+
